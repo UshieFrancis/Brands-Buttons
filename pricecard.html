@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Price Card</title>
+  </head>
+  <style>
+    * {
+      box-sizing: border-box;
+    }
+    body {
+      padding: 0;
+      margin: 0;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-direction: column;
+      height: 100vh;
+      background-color: black;
+    }
+    .container-pricecard {
+      background-color: white;
+      width: 100%;
+      padding: 20px 30px;
+      height: 100%;
+    }
+    h1 {
+      font-size: 2.5em;
+      font-weight: 600;
+      font-family: Arial, Helvetica, sans-serif;
+    }
+    a {
+      font-size: 25px;
+      font-weight: 500;
+      transition: background-color 0.15s, color 0.15s;
+    }
+    .link a:hover {
+      transition: all 0.5s;
+      color: rgba(165, 100, 3, 0.862);
+    }
+    .class-card .price {
+      color: darkgreen;
+      font-size: 24px;
+    }
+    .class-card .p-tag {
+      font-size: 28px;
+      font-weight: 600;
+    }
+    .class-card .add-cart-btn {
+      background-color: rgb(250, 209, 8);
+      color: rgba(0, 0, 0, 0.928);
+      height: 50px;
+      width: 210px;
+      border: none;
+      font-size: 24px;
+      font-weight: 600;
+      border-radius: 50px;
+      cursor: pointer;
+      margin-right: 20px;
+      /* transition: background-color 0.15s, color 0.15s; */
+    }
+    .add-cart-btn:hover {
+      transition: all 1.1s ease-in-out;
+      background-color: rgb(224, 174, 99);
+      /* transform: scale(1.1); */
+      opacity: 0.8;
+      box-shadow: 5px 5px 10px rgb(0, 0, 0.15);
+    }
+    .class-card .buy-btn {
+      background-color: rgb(255, 164, 28);
+      color: rgba(0, 0, 0, 0.928);
+      height: 50px;
+      width: 210px;
+      border: none;
+      font-size: 24px;
+      font-weight: 600;
+      border-radius: 50px;
+      cursor: pointer;
+      margin-right: 20px;
+    }
+    .buy-btn:hover {
+      background-color: rgba(165, 100, 3, 0.862);
+      transition: all 1.1s ease-in-out;
+      /* transform: scale(1.1); */
+      opacity: 0.8;
+      box-shadow: 5px 5px 10px rgb(0, 0, 0.15);
+    }
+  </style>
+  <body>
+    <main>
+      <div class="container-pricecard">
+        <div class="link"><a href="#">Back to Amazon</a></div>
+        <h1>Nike Black Running Shoes</h1>
+        <div class="class-card">
+          <span class="price">$39-in stock.</span>
+          <p class="p-tag">Free delivery tomorrow</p>
+          <button class="add-cart-btn">Add to Cart</button>
+          <button class="buy-btn">Buy now</button>
+        </div>
+      </div>
+      <a href="websitesbutton.html">another project</a>
+    </main>
+  </body>
+</html>
